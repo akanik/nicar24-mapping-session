@@ -68,20 +68,21 @@ When File formats
 Powerpoints are not acceptable forms of spatial data unless you’re really good at tracing (spoiler: no one is that good and if you are it's not worth your time to trace) (georeferencing data)
 
 ### Breaking down technical language for non-technical audiences
+Census tract --> "areas"
 
 
 ## COLLABORATION
-### Pulling yourself into the reporting process early on
-Buffers, clusters and heat maps 
+Pulling yourself into the reporting process early on working closely with your team to continuously develop the project.
 
 Showing others how things are spatially related over time
  
-### Sharing your work with reporters on the fly (?)
-Basics of writing a data summary (we can make this more mapping-specific!)
+Share your work with your team quickly and interactively.
 
-Felt plugin for QGIS
+[How to write a data summary](https://docs.google.com/document/d/16hR6wOSjXtBXDkSepsNH5hyIbg3XZgraPtFADD6yDt0/edit)
 
-Plotting in geopandas
+**QGIS walkthru** Buffers, clusters and Felt plugin for QGIS.
+
+**Python code** Buffers, clusters and plotly in geopandas. Exporting for Datawrapper. Include mapshaper for minimizing. 
 
 
 ## REPETITION
