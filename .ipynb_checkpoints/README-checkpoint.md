@@ -15,6 +15,12 @@ Your terminal should now have an environment name (in this case `(env)`) appende
 
 [img of this]
 
+Troubleshooting: If you find that none of your code is running, try running the following command in the root of your project folder, while the virtual environment is running:
+
+```
+pip install -r requirements.txt
+```
+
 ### If you don't have the virtual environment set up already
 **Mac:** Using your terminal window, create a folder that will hold your work for this session. `cd` into that folder. Then run `python3 -m venv env`. Then run `source env/bin/activate`. Then install the following libraries: `pip -i pandas jupyterlab geopandas openpyxl`
 
@@ -55,6 +61,7 @@ One document that has crosswalks for all nominal geographies (spatial join)
 **QGIS walkthru**
 
 **Python code**
+[code/create-a-crosswalk.ipynb](../data/create-a-crosswalk.ipynb)
 
 ### Letting reporters know what you need in order to do your job
 When File formats
