@@ -82,7 +82,7 @@ Share your work with your team quickly and interactively.
 
 **QGIS walkthru** Buffers, clusters and Felt plugin for QGIS.
 
-**Python code** Buffers, clusters and plotly in geopandas. Exporting for Datawrapper. Include mapshaper for minimizing. 
+**Python code** [code/buffers-clusters-viz.ipynb](code/buffers-clusters-viz.ipynb) 
 
 
 ## REPETITION
