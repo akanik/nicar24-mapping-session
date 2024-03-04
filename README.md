@@ -88,16 +88,11 @@ Share your work with your team quickly and interactively.
 ## REPETITION
 Whether you’re working with a team or trying to help your future self, writing things down, being organized and having your analysis be repeatable is CRUCIAL.
 
-### Building crosswalks (join by location in QGIS, spatial joins in python)
-A reporter comes up to you and wants to know how many under-18 people live in a certain school district boundary.
-Example: https://www.houstonchronicle.com/news/houston-texas/census/article/houston-neighborhood-demographics-census-data-18139717.php
+### Understanding how geographic shapes change over time
+**Python code** [code/custom-geographies.ipynb](code/custom-geographies.ipynb)
 
 ### How to get Census data into city-managed geographic formats like neighborhoods
-
-### Identifying hotspots (cluster analysis in QGIS, k-means or k-nearest neighbors in python)
-
-### Finding surrounding properties ← buffers
-
+**Python code** [code/custom-geographies.ipynb](code/custom-geographies.ipynb)
 
 
 
