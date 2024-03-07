@@ -9,11 +9,11 @@ We’d rather have a more intermediate class that is more replicable and compreh
 
 ## Getting started
 ### If you have the virtual environment already set up on your machine
-A virtual environment should be set up with the appropriate libraries already loaded. Simply use the command line to navigate into the folder (we'll let you know where that folder is at the beginning of class) and run `source env/bin/activate`.
-
-Your terminal should now have an environment name (in this case `(env)`) appended to the command line. 
-
-[img of this]
+A virtual environment should be set up with the appropriate libraries already loaded. Simply use the command line to:
+- navigate into the class folder `cd Desktop/hands_on_classes/20240308-friday-let-s-make-mapping-better`
+- run `source env/bin/activate`
+- Your terminal should now have an environment name (in this case `(env)`) appended to the command line.
+- run `jupyter lab`
 
 Troubleshooting: If you find that none of your code is running, try running the following command in the root of your project folder, while the virtual environment is running:
 
@@ -27,14 +27,6 @@ pip install -r requirements.txt
 **PC:** I have no idea... Cody help.
 
 ## What's this session all about?
-OPTION 1: 
-
-It can be challenging to make the mapping components of a projects **cohesive** - i.e. fit with the rest of your analysis and reporting steps - **collaborative** - able to be shared and edited/iterated upon by your peers and managers - and **repeatable** - able to be rerun for fact-checking and/or easily changed to repeat an analysis with slightly different parameters.
-
-QGIS is a powerful tool that allows us to visualize and analyze geographic data with a relatively easy-to-use interface. However, it can be lacking when it comes cohesion, collaboration and repetition. 
-
-
-OPTION 2:
 
 We all know how valuable maps can be in a published story. But mapping for analysis and collaboration can be just as, if not more, valuable to your story and your sanity as a data reporter. Often times, data reporters are responsible for using their skills to build team resources and documentation, and not just for published stories. 
 
@@ -50,37 +42,20 @@ The ability to use mapping to create invaluable resources for your team, and to 
 ### Creating a source of truth for spatial data in your newsroom
 Mapping can be very useful in creating reference documents for teams that join togther different spatial data so that you can maintain consistency in how you report on your area. 
 
-For example, knowing which school districts are within your city's metro area is important so you can know which school districts to pull data for, which to include in your analyses, etc. You can also do more complex spatial joins that will align multiple 
-
-One document that has crosswalks for all nominal geographies (spatial join)
+For example, knowing which school districts are within your city's metro area is important so you can know which school districts to pull data for, which to include in your analyses, etc. You can also do more complex spatial joins that will align multiple data files.
 
 **For instance:** School ID 324321 → Facility ID 76543 → Popsicle School → Ice Cream Neighborhood → Dairy County
 
-**Working example:** Cam did you have an example that you've created?
-
-**QGIS walkthru**
-
 **Python code**
 [code/create-a-crosswalk.ipynb](../data/create-a-crosswalk.ipynb)
-
-### Letting reporters know what you need in order to do your job
-When File formats
-Powerpoints are not acceptable forms of spatial data unless you’re really good at tracing (spoiler: no one is that good and if you are it's not worth your time to trace) (georeferencing data)
-
-### Breaking down technical language for non-technical audiences
-Census tract --> "areas"
 
 
 ## COLLABORATION
 Pulling yourself into the reporting process early on working closely with your team to continuously develop the project.
 
-Showing others how things are spatially related over time
- 
-Share your work with your team quickly and interactively.
+Specifically, the ability to explain to your team and readers how things are spatially related and how spatial data change over time can be vital to accurately reporting on communities. Sharing your mapping work with your team quickly and interactively can help you accomplish this.
 
 [How to write a data summary](https://docs.google.com/document/d/16hR6wOSjXtBXDkSepsNH5hyIbg3XZgraPtFADD6yDt0/edit)
-
-**QGIS walkthru** Buffers, clusters and Felt plugin for QGIS.
 
 **Python code** [code/buffers-clusters-viz.ipynb](code/buffers-clusters-viz.ipynb) 
 
