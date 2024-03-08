@@ -314,3 +314,5 @@ After we run this join (and name the resulting file `join3`) we'll run the spati
 
 Our results (which I renamed, very creatively, to "`join3-b`") will end up being a dataset that has 1425 features, the same as our `md-schools` file, because it's grouped by school name — giving us a solid platform for our next demo.
 
+
+## next walkthrough: [creating buffers, clusters and counts, oh my!](./qgis-buffers.md)

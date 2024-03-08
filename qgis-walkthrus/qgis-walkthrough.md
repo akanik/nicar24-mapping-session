@@ -9,8 +9,12 @@ Working with spatial data in a newsroom environment can be tricky — especiall
 
 For this class, we're using a mix of QGIS and Python workflows to illustrate a few spatial concepts, and (how in some cases) they can be made better. (*And while "better" is subjective, it'll at least hit at those three key ideas: cohesion, collaboration, and repetition.*) We've chosen these two strategies (QGIS and Python) because they're essentially one and the same: QGIS is a more visual interface for spatial data that runs on Python, with a lot of overlapping concepts by design!
 
-# A basic primer of QGIS
+Our basics walkthrough is below, but the other QGIS walkthroughs are in this repo:
+* A [demo and explainer of spatial joins](./qgis-spatial-joins.md)
+* A [quick demo of building buffers](./qgis-buffers.md)
+* 
 
+# A basic primer of QGIS
 
 So let's find our way around QGIS! (If you're following along at home, you can download the latest version or LTR of QGIS here: )
 
@@ -119,3 +123,5 @@ To deselect the Census Tract, we'll go back to the attribute toolbar and hit the
 
 
 This is all we need to know for _now_; we'll get to more details in a few. The other big main data tenet applies **HEAVILY** to QGIS: **save early and often**. 
+
+## next walkthrough: [creating spatial joins](./qgis-spatial-joins.md)

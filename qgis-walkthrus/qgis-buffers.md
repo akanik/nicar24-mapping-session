@@ -72,5 +72,18 @@ Navigate to `Vector` > `Analysis Tools` > `Count Points in Polygon`. This will o
 
 When the menu pops up, because our goal is to count the number of LRP sites within a buffer zone, we'll use `md-schools-buffer` as our polygon input, and `md-lrp-sites` as our point input. 
 
-> ***Why not use `schools-buffer-join` or `md-schools-reprojected-join`?*** 
->> We don't need to! In this case, I'm thinking ahead to a visualization I can make, which you'll see in a second. I don't want to have to clean up duplicate schools, because the goal is to show magnitude, 
+> ***Why not use `schools-buffer-join` or `md-schools-reprojected-joined`?*** 
+>> We don't need to! In this case, I'm thinking ahead to a visualization I can make, which you'll see in a second. I don't want to have to clean up duplicate schools, because the goal is to show magnitude. And with `md-schools-reprojected-joined`, all of that data is already within `md-schools-buffer`, which is perfect. :) 
+
+When we run the count function, it sums (well, counts) the number of points within a set polygon. This makes it ideal for **quickly creating maps showing magnitude**, like choropleth or graduated symbol maps, a format that readers and reporters alike tend to understand on a quick glance.
+
+![](./assets/buffers/qgis_countwindow.png)
+
+I'm going to rename the output file from `Count` (vague, bad, ick) to **`school-sites-count`** (clearer, better, yum (??)). Let's open up the attribute table to see what i meant from earlier:
+
+![](./assets/buffers/qgis_countattr.png)
+
+On the verrrrrry far right (scroll all the way past all of our lovely joined data), you'll see a column named **`NUMPOINTS`**. This represents our count of LRP sites within those buffer areas, which you can see varies widely. A nice thing about the Count feature is that it doesn't produce `NULL` values if there aren't any points within a polygon, so the data cleaning is minimal in that regard.
+
+
+### next walkthrough: [bringing it all together](./qgis-alltogethernow.md) with viz and concepts
